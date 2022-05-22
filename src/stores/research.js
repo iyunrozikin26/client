@@ -100,8 +100,8 @@ export const researchStore = defineStore({
                 },
             })
                 .then(({ data }) => {
-                    console.log(data.rows);
-                    // this.researchs = data.rows;
+                    console.log(data);
+                    this.researchs = data
                 })
                 .catch((err) => {
                     console.log(err);
