@@ -4,8 +4,8 @@ import axios from "axios";
 export const userStore = defineStore({
     id: "userStore",
     state: () => ({
-        serverUrl: "http://localhost:3000",
-        // serverUrl: "https://npaper-edu-deploy.herokuapp.com",
+        // serverUrl: "http://localhost:3000",
+        serverUrl: "https://npaper-edu-deploy.herokuapp.com",
         access_token: localStorage.getItem("access_token"),
         role_user: localStorage.getItem("role"),
         id_user: localStorage.getItem("id"),

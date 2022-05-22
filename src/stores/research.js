@@ -4,8 +4,8 @@ import axios from "axios";
 export const researchStore = defineStore({
     id: "researchStore",
     state: () => ({
-        serverUrl: "http://localhost:3000",
-        // serverUrl: "https://npaper-edu-deploy.herokuapp.com",
+        // serverUrl: "http://localhost:3000",
+        serverUrl: "https://npaper-edu-deploy.herokuapp.com",
 
         researchs: [],
         research: {},
